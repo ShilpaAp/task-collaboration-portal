@@ -1,3 +1,47 @@
+# Task Collaboration Portal
+
+A Laravel-based portal where Admin assigns projects to Developers and Clients can track updates.
+
+## Features
+- Admin can create developers and clients
+- Admin can assign projects
+- Developers can update project status and upload attachments
+- Clients can view project progress
+
+## Installation
+
+git clone https://github.com/ShilpaAp/task-collaboration-portal.git
+cd task-collaboration-portal
+composer install
+cp .env.example .env
+php artisan serve
+
+## Database Setup
+
+Import `database.sql`
+
+OR
+
+php artisan migrate --seed
+
+## Login Credentials
+
+Admin  
+email : admin@gmail.com
+password : admin1  
+
+Developer  
+email : developer@gmail.com
+password : developer1  
+
+Client  
+email : client@gmail.com
+password : client1  
+
+## License
+
+This project is for evaluation purposes.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
