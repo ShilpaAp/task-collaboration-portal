@@ -35,7 +35,7 @@
                 <tbody>
                 @foreach($projects as $project)
                     <tr>
-                        <td>{{ $project->client_id }}</td>
+                        <td>{{ $project->id }}</td>
                         <td>{{ $project->title }}</td>
                         <td>{{ $project->description }}</td>
                         <td>{{ $project->status }}</td>
